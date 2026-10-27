@@ -1,0 +1,24 @@
+multimodal-construction-intelligence-platform/
+├── README.md
+├── .gitignore
+├── backend/
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── uploads/
+│   │   └── .gitkeep
+│   └── app/
+│       ├── __init__.py
+│       ├── main.py
+│       ├── data.py
+│       └── services/
+│           ├── __init__.py
+│           └── ai_service.py
+└── frontend/
+    ├── package.json
+    ├── index.html
+    ├── vite.config.js
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── api.js
+        └── styles.css
